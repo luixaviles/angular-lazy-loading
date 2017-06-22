@@ -7,6 +7,7 @@ import { MdToolbarModule, MdIconModule, MdButtonModule } from "@angular/material
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeModule } from './home/home.module';
+import { AboutModule } from './about/about.module';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { HomeModule } from './home/home.module';
     MdIconModule,
     MdButtonModule,
     AppRoutingModule,
-    HomeModule
+    HomeModule,
+    AboutModule
   ],
   providers: [],
   bootstrap: [AppComponent]
